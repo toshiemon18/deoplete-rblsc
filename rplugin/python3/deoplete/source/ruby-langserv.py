@@ -18,6 +18,9 @@ class Source(Base):
         self.langserv_status = False
         super(Source, self).__init__(vim)
 
+    def on_init(self, context):
+        pass
+
     def get_complete_position(self, context):
         pass
 
